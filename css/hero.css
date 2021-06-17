@@ -1,0 +1,49 @@
+.bubbly-viewport {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.mouse-icon {
+    margin-top: 100px;
+    position: relative;
+}
+
+.mouse-icon::after {
+    content: "Scroll";
+    margin-top: 100px;
+    position: absolute;
+    top: -60px;
+    left: -6px;
+    font-weight: 700;
+}
+
+.mouse-icon {
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.mouse-icon{
+    animation: move 3s ease-out 1s infinite;
+}
+
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(80px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(120px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+

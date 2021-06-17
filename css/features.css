@@ -1,0 +1,33 @@
+.bubbly-features-img {
+    width: 400px;
+    position: relative;
+}
+
+.bubbly-features-img > img {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.bubbly-features-img::after, .bubbly-features-img::before {
+    content: "";
+    width: 50%;
+    height: 30%;
+    background-color: #FFE0B2;
+    position: absolute;
+    z-index: 1;
+}
+
+.bubbly-features-img::after {
+    top: -20px;
+    right: -20px;
+}
+
+.bubbly-features-img::before {
+    bottom: -20px;
+    left: -20px;
+}
+
+.features-container i.fa {
+    color: #36CFD8;
+}

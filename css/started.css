@@ -1,0 +1,11 @@
+.started {
+    box-shadow: 25px 25px 0 0 #FFE0B2;
+    background-color: #FFB74D;
+    height: 300px;
+    width: 100%;
+    transform: translateY(30%);
+}
+
+.started > h3, .started > p {
+    color: #ffffff;
+}

@@ -1,0 +1,28 @@
+.features-container {
+    margin-top: 150px;
+}
+
+.bubbly-card-title {
+    margin-left: 20px;
+}
+
+.card-body > h5 {
+    margin-bottom: 0;
+}
+
+.card-body > a {
+    color: #6002EE;
+}
+
+
+.editors-choice {
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    padding: 3px 19px;
+    border: 1px solid rgba(0, 204, 255, 0.7);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+}
